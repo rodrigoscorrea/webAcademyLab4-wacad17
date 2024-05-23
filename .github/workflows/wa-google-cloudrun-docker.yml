@@ -34,7 +34,7 @@ jobs:
         with:
           context: ./
           push: true
-          dockerfile: ./Dockerfile   # Specify the path to your Dockerfile here
+          dockerfile: ./Dockerfile   # Specify the path to your Dockerfile
           tags: rodrigoscorrea/webacademy:latest
   deploy:
     needs: lint

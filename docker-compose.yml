@@ -1,9 +1,8 @@
 version: '3'
-
 services:
   app:
-    image: rodrigoscorrea/webacademy:latest
-    container_name: webacademydemo
+    image: rodrigoscorrea/sliderihc
+    container_name: sliderihc
     restart: always
     ports:
       - "8080:8080"

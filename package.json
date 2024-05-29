@@ -1,16 +1,16 @@
 {
-    "name": "webacademy",
+    "name": "sliderihc",
     "version": "1.0.0",
-    "description": "Continious Deployment with Github Actions, DockerHub",
+    "description": "aplicacao para slider de ihc",
     "scripts": {
-      "lint": "eslint \"**/*.{js,jsx}\"", 
-      "start": "node app.js"
+        "lint": "eslint \"**/*.{js,jsx}\"",
+        "start": "node app.js"
     },
     "dependencies": {
-      "express": "^4.17.1"
+        "express": "^4.17.1",
+        "express-handlebars": "^7.1.2"
     },
-    "devDependencies": { 
-      "eslint": "^8.23.0"
+    "devDependencies": {
+        "eslint": "^8.23.0"
     }
-  }
-  
+}
